@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    flex-wrap: wrap;  /* Ensures items wrap to the next row if needed */
+    justify-content: space-between;  /* Space between items, first and last touch edges */
+    padding: 10px;
+    gap: 10px;  /* Provides spacing between items */
+}
+
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    flex: 1 1 auto;  /* Allows flexibility while keeping items from squishing */
+    text-align: center;
+}
